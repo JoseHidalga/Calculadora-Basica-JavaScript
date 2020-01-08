@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="operaciones1.js"></script>
+<center>
+<form name="f1"><br>
+<input type="text" name="txtcaja" id="nombretxt"><br>
+<input type="button" onclick="escribir('1')" value="1">
+<input type="button" onclick="escribir('2')" value="2">
+<input type="button" onclick="escribir('3')" value="3"> <input type="button" onclick="operadores('+')" value="+"><br>
+<input type="button" onclick="escribir('4')" value="4">
+<input type="button" onclick="escribir('5')" value="5">
+<input type="button" onclick="escribir('6')" value="6"> <input type="button" onclick="operadores('-')" value="-"><br>
+<input type="button" onclick="escribir('7')" value="7">
+<input type="button" onclick="escribir('8')" value="8">
+<input type="button" onclick="escribir('9')" value="9"> <input type="button" onclick="operadores('*')" value="*"><br>
+<input type="button" onclick="escribir('0')" value="0">
+<input type="button" onclick="escribir('.')" value=".">	<input type="button" onclick="operadores('/')" value="/"><br>
+<input type="button" onclick="document.f1.reset()" value="C"> 
+<input type="button" onclick="Igual()" value="="><br>
+<input type="button" onclick="sin()" value="sin">
+<input type="button" onclick="cos()" value="cos">
+<input type="button" onclick="tan()" value="tan">
+<input type="button" onclick="sqrt()" value="sqrt">
+</form>
+<button id="boton-guardar">MS</button>
+<button id="boton-cargar">MR</button>
+</center> 
+</body>
+</html>
